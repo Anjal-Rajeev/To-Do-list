@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #3F4E4F;
+    color: white;
+    padding-top: 6rem;
+    padding-left: 10%;
+    background-image: url(/images/dark-blue-product-background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+form{
+    border: 2px solid #2C3639;
+    padding: 5%;
+    width: 85%;
+    height: 25rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: white;
+}
+
+form h3{
+    color: bisque ;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+form button{
+    background-color: #2C3639;
+    border: 1px solid lightslategrey !important;
+    color:#5F7161;
+    
+    border-radius: 5px;
+    padding: 3px;
+    width: 50%;
+    margin-left: 25%;
+}
+form button:hover{
+    background-color: rgba(0, 0, 0, 0.15) ;
+    border: 1px solid darkslategray !important;
+    color: azure;
+}
+form span{
+    margin-left: 40%;
+    color:crimson;
+    font-size: small;
+}
+
+input{
+    width: 100%;
+    
+    background-color: #2C3639;
+    border-radius: 5px;
+    color: whitesmoke;
+    padding-left: 7px;
+    font-size: small;
+    
+}

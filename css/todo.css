@@ -1,0 +1,40 @@
+body{
+    height: 100%;
+    width: 100vw;
+    background-color: #182747;
+    color: wheat;
+    font-weight: lighter;
+    /* padding-top: 6rem;
+    padding-left: 10%; */
+}
+
+.logout{
+    text-decoration: none !important;
+    
+}
+form span{
+    margin-right: 10px;
+}
+
+/* #myCheck{
+    display: inline !important;
+    float: left;
+}
+*/
+.p{
+    
+    display: inline;
+} 
+.container h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    color: antiquewhite;
+}
+input{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+input:disabled + label::before{
+    background-color: black !important;
+}
