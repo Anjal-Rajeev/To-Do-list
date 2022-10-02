@@ -50,11 +50,11 @@ function addContent(){                   //function for API calling using AJAX
                 // console.log(response.length);
                 if(response[i].completed == true){
                     // console.log("disabled")
-                    output += "<input type='checkbox'  checked disabled class='btn-info'>" + response[i].title + "<br><hr>"; // creating checkbox and content for disabled checkbox  ie. title = true
+                    output += "<input type='checkbox'  checked disabled class='btn-info' mr-2>" + response[i].title + "<br><hr>"; // creating checkbox and content for disabled checkbox  ie. title = true
                     
 
                 }
-                output += "<input type='checkbox' id='myCheck"+[i]+"' onclick='promiseFunction(this.id);'>" + response[i].title + "<br><hr>"; //creating checkbox and content   ie. title = false
+                output += "<input type='checkbox' id='myCheck"+[i]+"' onclick='promiseFunction(this.id);' mr-2>" + response[i].title + "<br><hr>"; //creating checkbox and content   ie. title = false
             }
             contents.innerHTML= output; // adding checkbox and content in webpage
             
